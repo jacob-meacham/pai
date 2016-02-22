@@ -4,7 +4,8 @@
   "description": "Seamless deck building with Electron",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/jacob-meacham/pai#readme",
   "dependencies": {
     "electron": "^0.4.1"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.8"
   }
 }
